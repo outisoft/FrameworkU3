@@ -1,6 +1,15 @@
 @extends('admin.layouts.dashboard')
 @section('content')
-<h1>OK, Esta Bien</h1>
+
+<div class="row py-lg-2">
+  <div class="col-md-6">
+    <h1>OK, Esta Bien</h1>
+  </div>
+  <div class="col-md-6">
+    <a href="/posts/create" class="btn btn-primary btn-lg float-md-right" role="button" aria-pressed="true">Create New Post</a>
+  </div>
+</div>
+
 <!-- DataTables Example -->
 <div class="card mb-3">
   <div class="card-header">
@@ -17,6 +26,7 @@
             <th>Sexo</th>
             <th>Subscripcion</th>
             <th>Subscripciones</th>
+            <th>Tools</th>
           </tr>
         </thead>
         <tfoot>
@@ -27,6 +37,7 @@
             <th>Sexo</th>
             <th>Subscripcion</th>
             <th>Subscripciones</th>
+            <th>Tools</th>
           </tr>
         </tfoot>
         <tbody>
@@ -36,7 +47,30 @@
             <td>24</td>
             <td>Hombre</td>
             <td>Premium</td>
+            <td>5</td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>002</td>
+            <td>Cesar Morales Trinidad</td>
+            <td>22</td>
+            <td>Hombre</td>
+            <td>Basico</td>
             <td>3</td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>003</td>
+            <td>Jorge Antonio Cruz Bartolon</td>
+            <td>21</td>
+            <td>Hombre</td>
+            <td>Platinum</td>
+            <td>7</td>
+            <td></td>
           </tr>
         </tbody>
       </table>

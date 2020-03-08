@@ -24,7 +24,8 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        //vista editor
+        return view('admin.posts.create');
     }
 
     /**
