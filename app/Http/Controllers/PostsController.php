@@ -64,11 +64,13 @@ class PostsController extends Controller
      * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function edit(Post $post)
+    public function edit()
     {
-        //
+      return view('admin.posts.edit');
     }
-
+    public function editar(){
+      return view('admin.posts.edit');
+    }
     /**
      * Update the specified resource in storage.
      *

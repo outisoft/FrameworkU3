@@ -48,7 +48,9 @@
             <td>Hombre</td>
             <td>Premium</td>
             <td>5</td>
-            <td></td>
+            <td>
+              <a href="/posts/001/edit"><i class="fa fa-edit"></i></a>
+            </td>
           </tr>
         </tbody>
         <tbody>
@@ -59,7 +61,9 @@
             <td>Hombre</td>
             <td>Basico</td>
             <td>3</td>
-            <td></td>
+            <td>
+              <a href="/posts/002/edit"><i class="fa fa-edit"></i></a>
+            </td>
           </tr>
         </tbody>
         <tbody>
@@ -70,7 +74,9 @@
             <td>Hombre</td>
             <td>Platinum</td>
             <td>7</td>
-            <td></td>
+            <td>
+              <a href="/posts/003/edit"><i class="fa fa-edit"></i></a>
+            </td>
           </tr>
         </tbody>
       </table>
