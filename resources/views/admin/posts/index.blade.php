@@ -6,7 +6,7 @@
     <h1>OK, Esta Bien</h1>
   </div>
   <div class="col-md-6">
-    <a href="/posts/create" class="btn btn-primary btn-lg float-md-right" role="button" aria-pressed="true">Create New Post</a>
+    <a href="/posts/create" class="btn btn-primary btn-lg float-md-right" role="button" aria-pressed="true">Nuevo Subscriptor</a>
   </div>
 </div>
 
@@ -78,4 +78,16 @@
   </div>
   <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
 </div>
+@endsection
+
+@section('js_post_page')
+    <script>
+        $('#deleteModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var post_id = button.data('postid')
+
+            var modal = $(this)
+            modal.find('.modal-footer #post_id').val(post_id)
+        })
+    </script>
 @endsection

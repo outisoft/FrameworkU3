@@ -36,7 +36,15 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //validacion de campos
+        $data = request()->validate([
+            'name' => 'required|max:255',
+            'edad' => 'required|max:255',
+            'sexo' => 'required|max:255',
+            'sub' => 'required|max:255',
+
+        ]);
+        return redirect('posts');
     }
 
     /**

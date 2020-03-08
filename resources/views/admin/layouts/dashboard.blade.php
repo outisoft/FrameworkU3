@@ -17,6 +17,9 @@
   <!-- Page level plugin CSS-->
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
+  <!--CKEditor Plugin-->
+  <script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+
   <!-- Custom styles for this template-->
   <link href="/css/admin/sb-admin.css" rel="stylesheet">
 
