@@ -1,9 +1,5 @@
 @extends('admin.layouts.dashboard')
 @section('content')
-
-
-
-
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
@@ -582,8 +578,4 @@
           </div>
           <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
         </div>
-
-
-
-
 @endsection
