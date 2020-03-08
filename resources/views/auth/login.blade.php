@@ -91,7 +91,7 @@
     var password=document.login.password.value;
     if (usuario=="admin" && password=="admin") {
 
-      window.location = 'auth/index';
+      window.location = '../admin';
     }
     if (usuario=="comprador" && password=="comprador") {
       window.location="https://www.mercadolibre.com.mx/";
