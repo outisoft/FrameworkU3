@@ -50,6 +50,7 @@
             <td>5</td>
             <td>
               <a href="/posts/001/edit"><i class="fa fa-edit"></i></a>
+              <a href="#"  data-toggle="modal" data-target="#deleteModal" data-postid="001"><i class="fas fa-trash-alt"></i></a>
             </td>
           </tr>
         </tbody>
@@ -63,6 +64,7 @@
             <td>3</td>
             <td>
               <a href="/posts/002/edit"><i class="fa fa-edit"></i></a>
+              <a href="#"  data-toggle="modal" data-target="#deleteModal" data-postid="002"><i class="fas fa-trash-alt"></i></a>
             </td>
           </tr>
         </tbody>
@@ -76,6 +78,7 @@
             <td>7</td>
             <td>
               <a href="/posts/003/edit"><i class="fa fa-edit"></i></a>
+              <a href="#"  data-toggle="modal" data-target="#deleteModal" data-postid="003"><i class="fas fa-trash-alt"></i></a>
             </td>
           </tr>
         </tbody>
@@ -84,6 +87,33 @@
   </div>
   <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
 </div>
+
+<!-- delete Modal-->
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Esta Seguro de borrar esto?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            </div>
+            <div class="modal-body">En verdad quiere borrar este subscriptor?.</div>
+            <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+            <form method="POST" action="/posts/001">
+                @method('DELETE')
+                @csrf
+                <button class="btn btn-primary" type="button" data-dismiss="modal">Aceptar</button>
+                <form method="POST" action="/posts/001">
+                <!--<input type="hidden" id="post_id" name="post_id" value="">
+                <a class="btn btn-primary" onclick="$(this).closest('form').submit();">Borrar</a>-->
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
 @endsection
 
 @section('js_post_page')
