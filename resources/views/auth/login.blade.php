@@ -93,8 +93,8 @@
 
       window.location = '../admin';
     }
-    if (usuario=="comprador" && password=="comprador") {
-      window.location="https://www.mercadolibre.com.mx/";
+    if (usuario=="usuario" && password=="usuario") {
+      window.location= '../usuario';
     }
     if (usuario=="" && password=="") {
       alert("Error en Usuario o Contraseña. Intenta de nuevo.")

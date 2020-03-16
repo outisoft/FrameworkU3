@@ -19,11 +19,19 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/usuario', function () {
+    return view('index');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('admin', 'AdminController@index');
+
+Route::get('usuario', 'UsuarioController@index');
+
+Route::resource('serviciosUsuario', 'ServUsuController');
 
 Route::resource('posts', 'PostsController');
 
