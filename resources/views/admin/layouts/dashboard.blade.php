@@ -103,7 +103,7 @@
           <span>Usuarios</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="/servicios">
           <i class="fas fa-fw fa-table"></i>
           <span>Servicios</span></a>
       </li>
