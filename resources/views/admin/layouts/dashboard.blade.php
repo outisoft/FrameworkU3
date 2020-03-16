@@ -107,13 +107,13 @@
           <i class="fas fa-fw fa-table"></i>
           <span>Servicios</span></a>
       </li>
-      <li class="nav-item">
+      <!--<li class="nav-item">
         <a class="nav-link" href="tables.html">
           <i class="fas fa-fw fa-table"></i>
           <span>Subscripciones</span></a>
-      </li>
+      </li>-->
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="/pagos">
           <i class="fas fa-fw fa-table"></i>
           <span>Pagos</span></a>
       </li>
