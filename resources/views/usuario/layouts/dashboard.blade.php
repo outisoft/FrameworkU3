@@ -103,7 +103,7 @@
           <span>Estado de cuenta</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/">
+        <a class="nav-link" href="/historial">
           <i class="fas fa-fw fa-table"></i>
           <span>Historial de pagos</span></a>
       </li>

@@ -13,7 +13,7 @@
 <div class="card mb-3">
   <div class="card-header">
     <i class="fas fa-table"></i>
-    Data Table Example</div>
+    Servicio</div>
   <div class="card-body">
     <div class="table-responsive">
       <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -45,7 +45,7 @@
             <td>4 equipos</td>
             <td>$300</td>
             <td>
-              <a href="/servicios/001/edit"><i class="fa fa-edit"></i></a>
+              <a href="/serviciosUsuario/001/edit"><i class="fa fa-edit"></i></a>
               <a href="#"  data-toggle="modal" data-target="#deleteModal" data-postid="001"><i class="fas fa-trash-alt"></i></a>
             </td>
           </tr>

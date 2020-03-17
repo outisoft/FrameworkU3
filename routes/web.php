@@ -31,6 +31,8 @@ Route::get('admin', 'AdminController@index');
 
 Route::get('usuario', 'UsuarioController@index');
 
+Route::resource('historial', 'HistorialController');
+
 Route::resource('serviciosUsuario', 'ServUsuController');
 
 Route::resource('posts', 'PostsController');

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ServUsuController extends Controller
+class HistorialController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class ServUsuController extends Controller
      */
     public function index()
     {
-        return view('usuario.servicios.index');
+        return view('usuario.historial.index');
     }
 
     /**
@@ -54,13 +54,11 @@ class ServUsuController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit()
+    public function edit($id)
     {
-        return view('usuario.servicios.actualizar');
+        //
     }
-    public function editar(){
-      return view('usuario.posts.actualizar');
-    }
+
     /**
      * Update the specified resource in storage.
      *
